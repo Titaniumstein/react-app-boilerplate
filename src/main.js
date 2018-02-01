@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+// import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { BrowserRouter} from 'react-router-dom'
 import App from 'components/App';
  
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
-      <MuiThemeProvider>
+      // <MuiThemeProvider>
       <BrowserRouter>
         <App/>
       </BrowserRouter>
-      </MuiThemeProvider>
+      // </MuiThemeProvider>
         , document.getElementById('root'));
 });
